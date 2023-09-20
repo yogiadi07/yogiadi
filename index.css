@@ -1,0 +1,196 @@
+ /* By:Yogi Adi Pramana */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: url(gambar-pemandangan-indonesia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #232946;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.557);
+}
+.header img {
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.header .Namalogo {
+    text-align: left;
+    color: #fffffe;
+    margin-top: -76px;
+    margin-left: 90px;
+    font-size: 40pt;
+    text-shadow: 0 0 5px #b8c1ec;
+}
+.menuhead{
+    display: flex;
+    text-align: left;
+    justify-content: flex-end;
+    color: white;
+    margin-top: -50px;
+    margin-right: 7vh;
+    list-style-type: none;
+}
+.menuhead a {
+    padding: 15px;
+    text-decoration: none;
+    color: #b8c1ec;
+}
+.active:hover{
+    --c: #232946;
+  
+    color: #ff000000;
+    background: 
+      linear-gradient(90deg,#ffffff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) 100% no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+    background-color: #eebbc3;
+    box-shadow: 0 0 5px #eebbc3,
+    0 0 25px #eebbc3, 0 0 50px #eebbc3;
+    border-radius: 5px;
+}
+.bagiankiri{
+    width: 150px;
+    height: 529px;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    list-style-type: none;
+    padding: 15px;
+    align-content: space-between;
+}
+.bagiankiri a{
+    text-decoration: none;
+    color: #b8c1ec;
+    background-color: transparent;
+    font-size: 17pt;
+
+}
+.SignUp{
+    padding: 10px;
+    background-color: #0000004b;
+}
+
+.bagiankiri a:hover{
+    --c: #000000;
+  
+    color: #ff000000;
+    background: 
+      linear-gradient(90deg,#ffffff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) 100% no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 0.5s;
+    background-color: #eebbc3;
+    box-shadow: 0 0 5px #eebbc3,
+    0 0 25px #eebbc3, 0 0 50px #eebbc3;
+    border-radius: 4px;
+    }
+.Login{
+    padding: 10px;
+    background-color: #0000004b;
+}
+.menukiri li{
+    margin:10px;
+    padding: 5px;
+    
+}
+.content{
+    display: flex;
+    
+}
+
+.footer {
+    background-color: transparent; 
+    backdrop-filter: blur(20px);
+    color: #fff; 
+    padding: 30px 0; 
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-logo img {
+    max-width: 150px; 
+}
+
+
+.footer-links ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px; 
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: rgb(14, 14, 49);
+}
+
+
+.footer-social ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-social li {
+    margin-right: 10px;
+}
+
+.footer-social a img {
+    max-width: 30px;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+}
+ /* By:Yogi Adi Pramana */
